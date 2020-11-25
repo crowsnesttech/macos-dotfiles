@@ -132,7 +132,7 @@ alias dns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder; say cac
 alias wp="sh ~/Documents/Bash/wallpaperfix.sh"
 alias ubs3="ssh nick@ubs2004-lab300"
 alias ll="ls -alF"
-alias ld="cd ~/Documents/git/dotfiles/macos-dotfileslalalalcd a"
+alias ld="cd ~/Documents/git/dotfiles/macos-dotfiles"
 # The next line updates PATH for the Google Cloud SDK.
 #if [ -f '/Users/nick/Dump/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/nick/Dump/google-cloud-sdk/path.zsh.inc'; fi
 
