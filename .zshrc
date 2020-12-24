@@ -130,7 +130,7 @@ alias pve="ssh nick@cnt-backup"
 alias c="clear"
 alias dns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder; say cache flushed"
 alias wp="sh ~/Documents/Bash/wallpaperfix.sh"
-alias ubs3="ssh nick@ubs2004-lab300"
+alias ubs3="ssh nick@ubs2004-lab300.crowsnest.home"
 alias ll="ls -alF"
 alias ld="cd ~/Documents/git/dotfiles/macos-dotfiles"
 # The next line updates PATH for the Google Cloud SDK.
