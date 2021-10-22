@@ -132,15 +132,6 @@ alias dellon="sh ~/Documents/git/scripts/dellon.sh"
 alias hp="sh ~/Documents/git/scripts/hpon.sh"
 alias delloff="sh ~/Documents/git/scripts/delloff.sh"
 
-
-# The next line updates PATH for the Google Cloud SDK.
-#if [ -f '/Users/$USER/Dump/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/$USER/Dump/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-#if [ -f '/Users/$USER/Dump/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/$USER/Dump/google-cloud-sdk/completion.zsh.inc'; fi
-
-#test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 source ~/.iterm2_shell_integration.zsh
 
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
