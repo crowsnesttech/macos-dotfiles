@@ -1,4 +1,4 @@
-# If you come from bash you might have to change your $PATH.
+# If you come from git/scripts you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -112,27 +112,30 @@ source $ZSH/oh-my-zsh.sh
 #alias zshconfig="nano ~/.zshrc"
 #alias ohmyzsh="vim ~/.oh-my-zsh"
 #alias syno="ssh nick@cnt-synology -p 3390"
-#alias df="sh ~/Documents/Bash/dellfan.sh"
-#alias do="sh ~/Documents/Bash/dellon.sh"
+#alias df="sh ~/Documents/git/scripts/dellfan.sh"
+#alias do="sh ~/Documents/git/scripts/dellon.sh"
 #alias ubs="ssh nick@ubs1804-syno"
 #alias jelly="ssh nick@kbd1804-nvpt"
 #alias ubsp="ssh nick@ubs1804-prod"
 
 alias zshconfig="nano ~/.zshrc"
 alias syno="ssh nick@cnt-synology -p 3390"
-alias df="sh ~/Documents/Bash/dellfan.sh"
-alias do="sh ~/Documents/Bash/dellon.sh"
+alias dellfan="sh ~/Documents/git/scripts/dellfan3.sh"
+alias do="sh ~/Documents/git/scripts/dellon.sh"
+alias hp="sh ~/Documents/git/scripts/hpon.sh"
 alias ubs="ssh nick@ubs1804-syno"
 alias ubsp="ssh nick@ubs1804-prod"
 alias unr="ssh root@cnt-unraid"
-alias vpn="ssh dietpi@dietpi"
 alias pve="ssh nick@cnt-backup"
 alias c="clear"
 alias dns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder; say cache flushed"
-alias wp="sh ~/Documents/Bash/wallpaperfix.sh"
+alias wp="sh ~/Documents/git/scripts/wallpaperfix.sh"
 alias ubs3="ssh nick@ubs2004-lab300.crowsnest.home"
 alias ll="ls -alF"
 alias ld="cd ~/Documents/git/dotfiles/macos-dotfiles"
+alias smb="sudo -S killall NetAuthSysAgent"
+alias snap="tmutil localsnapshot"
+alias vcsa="ssh -o PubkeyAuthentication=no root@192.168.11.18"
 # The next line updates PATH for the Google Cloud SDK.
 #if [ -f '/Users/nick/Dump/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/nick/Dump/google-cloud-sdk/path.zsh.inc'; fi
 
