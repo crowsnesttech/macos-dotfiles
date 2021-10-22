@@ -125,6 +125,7 @@ alias ll="ls -alF"
 alias ld="cd ~/Documents/git/dotfiles/macos-dotfiles"
 alias smb="sudo -S killall NetAuthSysAgent"
 alias snap="tmutil localsnapshot"
+alias scpt="cd $USER/Documents/git/scripts"
 # Scripts
 alias dellfan="sh ~/Documents/git/scripts/dellfan3.sh"
 alias dellon="sh ~/Documents/git/scripts/dellon.sh"
