@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/nick/.oh-my-zsh"
+export ZSH="/Users/$USER/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -108,39 +108,35 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-#alias zshconfig="nano ~/.zshrc"
-#alias ohmyzsh="vim ~/.oh-my-zsh"
-#alias syno="ssh nick@cnt-synology -p 3390"
-#alias df="sh ~/Documents/git/scripts/dellfan.sh"
-#alias do="sh ~/Documents/git/scripts/dellon.sh"
-#alias ubs="ssh nick@ubs1804-syno"
-#alias jelly="ssh nick@kbd1804-nvpt"
-#alias ubsp="ssh nick@ubs1804-prod"
-
+# Aliases
+#
+alias ohmyzsh="vim ~/.oh-my-zsh"
 alias zshconfig="nano ~/.zshrc"
-alias syno="ssh nick@cnt-synology -p 3390"
-alias dellfan="sh ~/Documents/git/scripts/dellfan3.sh"
-alias do="sh ~/Documents/git/scripts/dellon.sh"
-alias hp="sh ~/Documents/git/scripts/hpon.sh"
-alias ubs="ssh nick@ubs1804-syno"
-alias ubsp="ssh nick@ubs1804-prod"
-alias unr="ssh root@cnt-unraid"
-alias pve="ssh nick@cnt-backup"
+# SSH Aliases:
+alias syno="ssh $USER@cnt-synology -p 3390"
+alias ubs="ssh $USER@ubs1804-syno"
+alias xpe="ssh $USER@cnt-backup"
+alias vcsa="ssh -o PubkeyAuthentication=no root@192.168.11.18"
+# Bash Shortcuts
 alias c="clear"
 alias dns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder; say cache flushed"
 alias wp="sh ~/Documents/git/scripts/wallpaperfix.sh"
-alias ubs3="ssh nick@ubs2004-lab300.crowsnest.home"
 alias ll="ls -alF"
 alias ld="cd ~/Documents/git/dotfiles/macos-dotfiles"
 alias smb="sudo -S killall NetAuthSysAgent"
 alias snap="tmutil localsnapshot"
-alias vcsa="ssh -o PubkeyAuthentication=no root@192.168.11.18"
+# Scripts
+alias dellfan="sh ~/Documents/git/scripts/dellfan3.sh"
+alias dellon="sh ~/Documents/git/scripts/dellon.sh"
+alias hp="sh ~/Documents/git/scripts/hpon.sh"
+alias delloff="sh ~/Documents/git/scripts/delloff.sh"
+
+
 # The next line updates PATH for the Google Cloud SDK.
-#if [ -f '/Users/nick/Dump/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/nick/Dump/google-cloud-sdk/path.zsh.inc'; fi
+#if [ -f '/Users/$USER/Dump/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/$USER/Dump/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-#if [ -f '/Users/nick/Dump/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/nick/Dump/google-cloud-sdk/completion.zsh.inc'; fi
+#if [ -f '/Users/$USER/Dump/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/$USER/Dump/google-cloud-sdk/completion.zsh.inc'; fi
 
 #test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
