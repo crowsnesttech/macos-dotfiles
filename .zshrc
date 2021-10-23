@@ -112,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 #
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias zshconfig="nano ~/.zshrc"
+alias zshrestart="exec zsh"
 # SSH Aliases:
 alias syno="ssh $USER@cnt-synology -p 3390"
 alias ubs="ssh $USER@ubs1804-syno"
@@ -120,17 +121,17 @@ alias vcsa="ssh -o PubkeyAuthentication=no root@192.168.11.18"
 # Bash Shortcuts
 alias c="clear"
 alias dns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder; say cache flushed"
-alias wp="sh ~/Documents/git/scripts/wallpaperfix.sh"
 alias ll="ls -alF"
 alias ld="cd ~/Documents/git/dotfiles/macos-dotfiles"
 alias smb="sudo -S killall NetAuthSysAgent"
 alias snap="tmutil localsnapshot"
-alias scpt="cd $USER/Documents/git/scripts"
+alias scpt="cd ~/Documents/git/scripts"
 # Scripts
-alias dellfan="sh ~/Documents/git/scripts/dellfan3.sh"
-alias dellon="sh ~/Documents/git/scripts/dellon.sh"
-alias hp="sh ~/Documents/git/scripts/hpon.sh"
-alias delloff="sh ~/Documents/git/scripts/delloff.sh"
+alias dellfan="sh ~/Documents/git/scripts/servers/dellfan3.sh"
+alias dellon="sh ~/Documents/git/scripts/servers/dellon.sh"
+alias delloff="sh ~/Documents/git/scripts/servers/delloff.sh"
+alias hp="sh ~/Documents/git/scripts/servers/hpon.sh"
+alias wp="sh ~/Documents/git/scripts/wallpaperfix.sh"
 
 source ~/.iterm2_shell_integration.zsh
 
