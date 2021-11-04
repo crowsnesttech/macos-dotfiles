@@ -114,7 +114,7 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias zshconfig="vim ~/.zshrc"
 alias zshrestart="exec zsh"
 # SSH Aliases:
-alias cmd="ssh nick@ubs0ubs-cmdctl"
+alias cmd="ssh nick@ubs-cmdctl"
 alias syno="ssh $USER@cnt-synology -p 3390"
 alias ubs="ssh $USER@ubs1804-syno"
 alias xpe="ssh $USER@cnt-backup"
