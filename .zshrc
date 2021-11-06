@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 #
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias zshconfig="vim ~/.zshrc"
-alias zshrestart="exec zsh"
+alias zshr="exec zsh"
 # SSH Aliases:
 alias cmd="ssh $USER@ubs-cmdctl"
 alias syno="ssh $USER@cnt-synology -p 3390"
