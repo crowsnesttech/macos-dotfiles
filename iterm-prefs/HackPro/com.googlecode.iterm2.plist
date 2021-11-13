@@ -3814,7 +3814,7 @@ Tiles2:Restore Window Arrangement</string>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenBookmark</key>
-	<true/>
+	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<false/>
 	<key>PointerActions</key>
