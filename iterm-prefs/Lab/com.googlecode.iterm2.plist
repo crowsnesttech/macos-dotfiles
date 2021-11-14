@@ -2227,19 +2227,19 @@
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>535</real>
+				<real>428</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
-				<true/>
+				<false/>
 				<key>Initial Profile</key>
 				<dict/>
 				<key>Is Hotkey Window</key>
 				<false/>
 				<key>Saved Window Type</key>
-				<integer>12</integer>
+				<integer>0</integer>
 				<key>Screen</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>Scroller Width</key>
 				<real>0.0</real>
 				<key>Selected Tab Index</key>
@@ -2250,7 +2250,7 @@
 						<key>Root</key>
 						<dict>
 							<key>Splitter ID</key>
-							<string>72BF9389-84AF-4EE4-B1AC-9BAFE3EB0E66</string>
+							<string>87671BA2-21FE-4F48-9F50-6CE24AD98C02</string>
 							<key>Subviews</key>
 							<array>
 								<dict>
@@ -2526,7 +2526,7 @@
 												<real>0.011764705882352941</real>
 											</dict>
 											<key>Guid</key>
-											<string>D6994EF8-3C95-4C36-853E-33B1C065AA17</string>
+											<string>C98E2CE1-E765-41CF-AA9B-4ABE63746655</string>
 											<key>Horizontal Spacing</key>
 											<real>1</real>
 											<key>Idle Code</key>
@@ -3013,12 +3013,12 @@
 											<key>Visual Bell</key>
 											<true/>
 											<key>Window Type</key>
-											<integer>12</integer>
+											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/nick</string>
 										</dict>
 										<key>Columns</key>
-										<integer>106</integer>
+										<integer>78</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
@@ -3033,20 +3033,20 @@
 										</dict>
 										<key>Hostname to Shell</key>
 										<dict>
-											<key>nick@HackPro.crowsnest.home</key>
+											<key>nick@macos-lab100</key>
 											<string>zsh</string>
 										</dict>
 										<key>Hosts</key>
 										<array>
 											<dict>
 												<key>Host name</key>
-												<string>HackPro.crowsnest.home</string>
+												<string>macos-lab100</string>
 												<key>User name</key>
 												<string>nick</string>
 											</dict>
 											<dict>
 												<key>Host name</key>
-												<string>HackPro.crowsnest.home</string>
+												<string>macos-lab100</string>
 												<key>User name</key>
 												<string>nick</string>
 											</dict>
@@ -3076,13 +3076,13 @@
 											<string>Command</string>
 										</dict>
 										<key>Rows</key>
-										<integer>30</integer>
+										<integer>22</integer>
 										<key>Session GUID</key>
-										<string>020C2634-05F6-40E6-A85E-5D8A7E59C45D</string>
+										<string>89A4F2CB-9D65-4CE8-9B41-FAD3C6D5C649</string>
 										<key>Short Lived Single Use</key>
 										<false/>
 										<key>Should Expect Current Dir Updates</key>
-										<true/>
+										<false/>
 										<key>Should Expect Prompt Marks</key>
 										<true/>
 										<key>Substitutions</key>
@@ -3093,16 +3093,16 @@
 										<key>Working Directory</key>
 										<string>/Users/nick</string>
 										<key>Working Directory Poller Disabled</key>
-										<true/>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>514</real>
+										<real>378</real>
 										<key>width</key>
-										<real>964</real>
+										<real>712</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -3115,9 +3115,9 @@
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>514</real>
+								<real>378</real>
 								<key>width</key>
-								<real>964</real>
+								<real>712</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -3127,11 +3127,11 @@
 							<false/>
 						</dict>
 						<key>Tab GUID</key>
-						<string>08A2BD74-99C5-4014-9635-CE4CCF7A1F21</string>
+						<string>B19E52E8-E142-45DC-8617-E01397CAA67E</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
-				<string>pty-ED304D88-AF29-4545-8A3D-DF9DAE495AF3</string>
+				<string>pty-6578D0B7-E822-4173-A485-66286A2A8A45</string>
 				<key>Toolbelt</key>
 				<dict>
 					<key>Profiles</key>
@@ -3160,13 +3160,13 @@
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>964</real>
+				<real>712</real>
 				<key>Window Type</key>
-				<integer>12</integer>
+				<integer>0</integer>
 				<key>X Origin</key>
-				<real>3515</real>
+				<real>800</real>
 				<key>Y Origin</key>
-				<real>-3</real>
+				<real>0.0</real>
 			</dict>
 		</array>
 		<key>Default Two windows</key>
