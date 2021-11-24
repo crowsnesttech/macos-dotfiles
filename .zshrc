@@ -60,6 +60,8 @@ ENABLE_CORRECTION="true"
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
+AUTO_MENU="true"
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -71,6 +73,8 @@ ZSH_DISABLE_COMPFIX="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
+  copyfile
+  dirhistory
   yarn
   web-search
   jsontools
@@ -111,7 +115,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 #
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias zshconfig="vim ~/.zshrc"
+alias zshc="vim ~/.zshrc"
 alias zshr="exec zsh"
 # SSH Aliases:
 alias cmd="ssh $USER@ubs-cmdctl"
