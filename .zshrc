@@ -71,6 +71,9 @@ ZSH_DISABLE_COMPFIX="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
+  copydir
+  copyfile
+  dirhistory
   yarn
   web-search
   jsontools
