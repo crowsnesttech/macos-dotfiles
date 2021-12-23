@@ -87,7 +87,9 @@ plugins=(git
   docker
   iterm2
   zsh-autosuggestions
-  zsh-syntax-highlighting)
+  zsh-syntax-highlighting
+  docker
+  docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -123,9 +125,10 @@ alias cmd="ssh $USER@ubs-cmdctl"
 alias syno="ssh $USER@cnt-synology -p 3390"
 alias ubs="ssh $USER@ubs1804-syno"
 alias xpe="ssh $USER@cnt-backup"
-alias esxi1="ssh $USER@192.168.11.15"
-alias esxi2="ssh $USER@192.168.11.16"
-alias esxi3="ssh $USER@192.168.11.17"
+alias esxi1="ssh root@192.168.11.15"
+alias esxi2="ssh root@192.168.11.16"
+alias esxi3="ssh root@192.168.11.17"
+alias ubsd="ssh $USER@192.168.11.2"
 alias vcsa="ssh -o PubkeyAuthentication=no root@192.168.11.18"
 # Bash Shortcuts
 alias c="clear"

@@ -135,8 +135,18 @@ Tiles:Restore Window Arrangement</string>
 	<true/>
 	<key>HideTabNumber</key>
 	<false/>
+	<key>Hotkey</key>
+	<true/>
+	<key>HotkeyChar</key>
+	<integer>84</integer>
+	<key>HotkeyCode</key>
+	<integer>17</integer>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>HotkeyModifiers</key>
+	<integer>1179914</integer>
+	<key>IRMemory</key>
+	<integer>4</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1262,7 +1272,7 @@ Tiles:Restore Window Arrangement</string>
 			<key>HotKey Window Animates</key>
 			<true/>
 			<key>HotKey Window AutoHides</key>
-			<true/>
+			<false/>
 			<key>HotKey Window Dock Click Action</key>
 			<integer>0</integer>
 			<key>HotKey Window Floats</key>
