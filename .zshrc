@@ -74,7 +74,7 @@ ZSH_DISABLE_COMPFIX="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
   copydir
-  copyfile
+  copypath
   dirhistory
   yarn
   web-search
