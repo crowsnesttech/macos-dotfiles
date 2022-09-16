@@ -5956,8 +5956,6 @@ Tiles:Restore Window Arrangement as Tabs</string>
 	<true/>
 	<key>OpenBookmark</key>
 	<false/>
-	<key>OpenFileInNewWindows</key>
-	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<false/>
 	<key>PointerActions</key>
